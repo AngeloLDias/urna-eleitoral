@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.urna {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border: 10px solid #333; }
+  .urna .painel {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 20px; }
+  .urna .foto-botaoes {
+    display: flex;
+    align-items: flex-start; }
+    .urna .foto-botaoes .info-candidato {
+      margin-left: 50px; }
+      .urna .foto-botaoes .info-candidato h1 {
+        font-size: 60px; }
+    .urna .foto-botaoes input {
+      margin-top: 40px;
+      padding: 15px 30px; }
+  .urna #visor {
+    height: 60px;
+    width: 600px;
+    font-size: 62px; }
+  .urna .foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 172px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 40px; }
+    .urna .foto img {
+      width: 172px;
+      height: 200px; }
+  .urna .fotocandidato {
+    width: 350px;
+    height: 300px; }
+  .urna .btns {
+    margin: 10px; }
+    .urna .btns .btn-branco {
+      text-align: center;
+      background-color: #fff;
+      border: 1px #333 solid;
+      height: 75px;
+      width: 150px; }
+    .urna .btns .btn-corrige {
+      text-align: center;
+      background-color: orangered;
+      border: 1px #333 solid;
+      height: 75px;
+      width: 150px; }
+    .urna .btns .btn-confirma {
+      text-align: center;
+      background-color: green;
+      border: 1px #333 solid;
+      height: 75px;
+      width: 150px; }
+  .urna .teclado {
+    text-align: center;
+    background-color: #333; }
+    .urna .teclado .botao {
+      margin: 2px;
+      border: none;
+      padding: 45px;
+      box-shadow: 4px 3px #000;
+      font-size: 30px; }
+
+/*# sourceMappingURL=style.css.map */
